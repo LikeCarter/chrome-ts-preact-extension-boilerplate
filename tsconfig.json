@@ -1,9 +1,10 @@
 {
     "compilerOptions": {
         "sourceMap": true,
-        "target": "es6",
+        "target": "es5",
         "module": "commonjs",
-        "jsx": "react"
+        "jsx": "react",
+        "jsxFactory": "h",
     },
     "exclude": [
         "node_modules",
